@@ -20,7 +20,7 @@ http://arxiv.org/abs/2407.16293, 2024
 |File/Folder | Description |
 |:---|:---:|
 |`script_FCNN_Regression_TVT.py`|Main script to train and evaluate the neural network|
-|`datas`|Where the data should be, not given via GitHub|
+|`datas`|Where the data should be, only synthetical data are given|
 |`functions`|Contains dedicated functions for the main script|
     
 ### **Installation** 
