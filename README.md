@@ -37,6 +37,6 @@ See `requirements.txt` for the exact versions on which this code was developed.
 
 Everything is ready, you can just run the script you want using, for example, the run code button of your Spyder IDE. Alternatively, you can run the command `python [script_name].py` in the Anaconda Prompt from the root of this folder (i.e. where you downloaded and unzipped this repository).
 
-Each script will produce results (statistical metrics, top features...) in a results folder.
+Each script will produce results (statistical metrics, top features...) in a `results` folder, and plots in the `plots` folder.
 
 You can change other parameters near each script's start.
