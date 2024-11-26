@@ -134,8 +134,17 @@ if __name__ == "__main__":
         + file_name.split(".")[0]
         + "/"
     )
+    plotPath = (
+        "plots"
+        + "/"
+        + file_name.split(".")[0]
+        + "/"
+    )
     if not os.path.exists(outputPath):  # make the directory if it does not exist
         os.makedirs(outputPath)
+        
+    if not os.path.exists(plotPath):  # make the directory if it does not exist
+        os.makedirs(plotPath)
 
     # Load data
     X, Y,  feature_names, label_name_train,  patient_name, gaussianKDE , divided = ft.ReadData(
